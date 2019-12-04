@@ -1,0 +1,17 @@
+{
+  "name": "ijest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sschen86/ijest.git",
+  "author": "sschen86 <sschen86@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^24.8.0"
+  },
+  "devDependencies": {
+    "@smartx/eslint-config-tentative": "^1.2.0"
+  }
+}
