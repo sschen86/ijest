@@ -1,6 +1,6 @@
 {
   "name": "ijest",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "repository": "https://github.com/sschen86/ijest.git",
   "author": "sschen86 <sschen86@163.com>",
@@ -9,9 +9,11 @@
     "test": "jest"
   },
   "dependencies": {
-    "jest": "^24.8.0"
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "jest": "^26.4.2"
   },
   "devDependencies": {
-    "@smartx/eslint-config-tentative": "^1.2.0"
+    "@shushu.pro/eslint-config-all": "^0.0.1"
   }
 }
